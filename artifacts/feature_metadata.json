@@ -1,0 +1,88 @@
+{
+  "numerical_cols": [
+    "Attendance_Percentage",
+    "Previous_Semester_CGPA",
+    "Internal_Marks",
+    "Assignment_Score",
+    "Quiz_Score",
+    "Study_Hours_Per_Day",
+    "Previous_Backlogs",
+    "Practical_Marks"
+  ],
+  "categorical_cols": [],
+  "target_col": "Performance_Level",
+  "classes": [
+    "Average",
+    "Excellent",
+    "Good",
+    "Poor"
+  ],
+  "feature_names": [
+    "Attendance_Percentage",
+    "Previous_Semester_CGPA",
+    "Internal_Marks",
+    "Assignment_Score",
+    "Quiz_Score",
+    "Study_Hours_Per_Day",
+    "Previous_Backlogs",
+    "Practical_Marks"
+  ],
+  "feature_stats": {
+    "Attendance_Percentage": {
+      "mean": 76.6862,
+      "std": 14.40399318241988,
+      "min": 45.5,
+      "max": 99.0,
+      "median": 79.45
+    },
+    "Previous_Semester_CGPA": {
+      "mean": 7.07758,
+      "std": 1.7339093479342302,
+      "min": 4.0,
+      "max": 9.99,
+      "median": 7.175
+    },
+    "Internal_Marks": {
+      "mean": 65.904,
+      "std": 18.787675148217513,
+      "min": 25.0,
+      "max": 98.0,
+      "median": 67.0
+    },
+    "Assignment_Score": {
+      "mean": 67.316,
+      "std": 19.611766538829364,
+      "min": 25.0,
+      "max": 100.0,
+      "median": 68.0
+    },
+    "Quiz_Score": {
+      "mean": 64.434,
+      "std": 20.754738310194355,
+      "min": 20.0,
+      "max": 98.0,
+      "median": 66.0
+    },
+    "Study_Hours_Per_Day": {
+      "mean": 3.5042,
+      "std": 1.9399094973001785,
+      "min": 0.3,
+      "max": 8.0,
+      "median": 3.4
+    },
+    "Previous_Backlogs": {
+      "mean": 0.972,
+      "std": 1.300229669861743,
+      "min": 0.0,
+      "max": 5.0,
+      "median": 0.0
+    },
+    "Practical_Marks": {
+      "mean": 67.308,
+      "std": 19.9328817673487,
+      "min": 25.0,
+      "max": 100.0,
+      "median": 68.0
+    }
+  }
+}

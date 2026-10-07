@@ -1,0 +1,66 @@
+import json
+
+notebook = {
+    "cells": [
+        {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                "# Student Performance Predictor - Exploratory Data Analysis & Model Benchmark\n",
+                "**Author:** Akashraj (61782324110006)  \n",
+                "**Specification:** Multi-Model Predictive Modeling (Logistic Regression with L2, Random Forest, XGBoost) and Grounded LLM Explanation Layer."
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": None,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "import pandas as pd\n",
+                "import numpy as np\n",
+                "import matplotlib.pyplot as plt\n",
+                "import seaborn as sns\n",
+                "\n",
+                "df = pd.read_csv('../data/raw/student_performance_data.csv')\n",
+                "print('Dataset Shape:', df.shape)\n",
+                "df.head()"
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": None,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "# Target Distribution\n",
+                "print(df['Performance_Class'].value_counts())\n",
+                "df.describe()"
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": None,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "# Model Comparison Summary\n",
+                "with open('../artifacts/model_metrics.json', 'r') as f:\n",
+                "    metrics = json.load(f)\n",
+                "\n",
+                "metrics_df = pd.DataFrame(metrics).T[['accuracy', 'precision', 'recall', 'f1_score', 'roc_auc']]\n",
+                "print(metrics_df)"
+            ]
+        }
+    ],
+    "metadata": {
+        "language_info": {"name": "python", "version": "3.14.3"}
+    },
+    "nbformat": 4,
+    "nbformat_minor": 2
+}
+
+with open("notebooks/exploratory_data_analysis.ipynb", "w") as f:
+    json.dump(notebook, f, indent=2)
+
+print("Notebook generated successfully.")

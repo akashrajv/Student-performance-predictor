@@ -1,0 +1,31 @@
+Student_ID,Name,Attendance_Percentage,Study_Hours_Per_Week,Previous_Grade,Assignment_Score,Assessment_Score,Participation_Score,Sleep_Hours,Tutoring_Sessions,Extracurricular_Activities,Parental_Education,Internet_Access
+STU1001,Vikram Das,65.5,9.2,62.1,54.7,52.2,54.7,6.8,0,No,Master,No
+STU1002,Tharun Deshmukh,88.2,2.9,74.3,50.8,58.0,68.7,6.9,4,No,Bachelor,Yes
+STU1003,Manoj Verma,91.8,19.2,88.4,74.4,72.8,80.5,5.7,3,No,Bachelor,Yes
+STU1004,Tharun Nair,100.0,6.6,91.3,54.4,60.9,70.0,4.2,3,No,High School,Yes
+STU1005,Sathish Bose,52.4,4.0,53.8,38.2,52.5,53.7,8.0,2,No,High School,Yes
+STU1006,Dayanithi Subramanian,58.5,24.9,85.1,82.1,67.6,54.9,5.9,1,Yes,Bachelor,Yes
+STU1007,Manoj Reddy,92.3,21.4,71.2,52.2,46.2,68.1,6.5,3,No,High School,Yes
+STU1008,Divya Patel,54.3,13.7,71.5,59.3,53.5,42.1,8.9,4,Yes,High School,Yes
+STU1009,Enosh Kumar,93.3,15.1,78.6,57.1,66.0,100.0,7.7,1,Yes,High School,Yes
+STU1010,Gokul Murugan,73.0,2.0,65.7,49.3,44.4,49.8,9.1,0,No,Master,Yes
+STU1011,Ashwin Iyer,68.7,22.4,86.3,74.4,69.5,60.5,7.1,1,No,High School,Yes
+STU1012,Priya Sharma,78.9,11.2,90.5,75.8,81.5,79.6,7.7,4,Yes,High School,Yes
+STU1013,Deepa Murugan,57.2,18.3,91.0,82.1,62.9,59.6,6.7,3,No,Bachelor,Yes
+STU1014,Ajay Chopra,87.5,2.0,48.0,38.0,47.5,67.8,6.0,3,No,Bachelor,Yes
+STU1015,Varun Rao,99.7,22.8,69.0,62.6,62.5,67.9,7.7,4,No,High School,No
+STU1016,Kishore Joshi,88.2,10.7,46.8,82.6,59.8,74.2,6.5,3,No,Doctorate,Yes
+STU1017,Vijay Deshmukh,72.5,6.4,62.1,51.7,50.2,37.1,7.8,2,Yes,Bachelor,Yes
+STU1018,Ashwin Bose,54.5,13.6,40.8,42.4,30.0,54.4,6.3,2,No,Bachelor,Yes
+STU1019,Deepa Das,55.0,11.8,77.9,57.5,62.5,53.3,6.8,0,No,High School,Yes
+STU1020,Ajay Patel,57.4,23.5,74.9,67.1,50.1,65.1,6.9,1,No,Bachelor,Yes
+STU1021,Arun Bose,75.8,13.1,66.4,56.3,67.1,54.0,8.3,1,No,Master,Yes
+STU1022,Vikram Gupta,77.6,25.5,61.7,63.1,57.9,63.3,6.5,3,Yes,High School,Yes
+STU1023,Vikram Malhotra,88.2,18.3,76.1,66.2,58.7,77.3,8.4,1,Yes,Bachelor,Yes
+STU1024,Sneha Pillai,50.9,22.3,58.9,61.7,55.5,52.6,5.9,0,No,High School,Yes
+STU1025,Meena Gupta,94.4,16.0,58.0,50.2,52.6,63.2,7.3,0,Yes,Doctorate,Yes
+STU1026,Sathish Kumar,85.7,24.9,56.4,65.5,51.9,64.9,6.2,1,No,High School,Yes
+STU1027,Ritu Deshmukh,71.4,7.9,69.4,58.5,50.7,76.8,8.3,1,Yes,Master,Yes
+STU1028,Kishore Nair,59.3,16.8,64.4,64.8,39.2,58.2,6.0,0,Yes,High School,Yes
+STU1029,Deepa Verma,93.5,13.2,67.0,46.0,59.9,59.5,6.1,0,Yes,Bachelor,Yes
+STU1030,Vijay Patel,71.8,25.8,78.8,73.3,51.3,71.9,5.5,1,No,Bachelor,Yes
